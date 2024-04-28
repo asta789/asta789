@@ -1,0 +1,23 @@
+b=int(input("enetr yur age"))
+if b >=18:
+ while True:
+ print("enter ur choice no 
+respectively among parties:-
+1.BJP,2.CONGRESS,3.AAP,4.SAMAJBADI 5. for 
+exit")
+ a = int(input("enter your choice of 
+party to vote"))
+ if (a == 1):
+ print("bjp is ypur choice")
+ elif (a == 2):
+ print("congress is ypur choice")
+ elif (a == 3):
+ print("aap is ypur choice")
+ elif (a == 4):
+ print("samajbadi is ypur choice")
+ elif(a==5):
+ break
+ else:
+ print("choice is invalid")
+else:
+ print("not eligible to vote")
