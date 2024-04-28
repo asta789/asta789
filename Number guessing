@@ -1,0 +1,16 @@
+import random as r
+a=int(input("enter your lower limit:"))
+b=int(input("enter your upper limit:"))
+random = r.randint(a, b)
+for i in range(0,5):
+ c = int(input("enter your guess no within limits u enterred:"))
+ if random == c:
+ print("number matched")
+ elif random > c:
+ print(random)
+ print("too low")
+ elif random < c:
+ print(random)
+ print("too high")
+ else:
+ print("invalid choice")
