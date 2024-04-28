@@ -1,0 +1,8 @@
+import random as rd
+choice=True
+while choice:
+ random = rd.randint(1, 6)
+ print("your rolled no:", random)
+ print("do u want to roll again:yes or no?")
+ choice = "yes" in input()
+ print("your rolled no:",random)
