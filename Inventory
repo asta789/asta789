@@ -1,0 +1,27 @@
+inventry={}
+while True:
+a=input()
+if a=="add":
+b=input()
+quant=int(input())
+if b in inventry:
+inventry[b]+=quant
+else:
+inventry[b]=quant
+elif ac=="remove":
+b=input()
+quant=int(input())
+if b in inventry and inventry[b]>=quant:
+inventry[b]-=quant
+elif b in inventry and inventry[b]<quant:
+print(f"TThere are only {inventry[item]} {item}s left in the inventry.")
+else:
+print(f"There is no {item} in the inventry.")
+elif a=="display":
+print("Inventry")
+for key, value in inventry.items():
+print(f"{key} : {value}")
+elif a=="quit":
+break
+else:
+print("Invalid action. Please try again.")
