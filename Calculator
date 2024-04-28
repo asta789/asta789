@@ -1,0 +1,19 @@
+a=int(input("Enter first number: "))
+b=int(input("Enter second number: "))
+c=int(input("Enter ur choice respectively 1.+, 2.*, 3./,4.-,5.% ,6.^,7.//"))
+if c==1:
+ print(a,"+",b,"=",a+b)
+elif c==2:
+ print(a,"*",b,"=",a*b)
+elif c==3:
+ print(a,"/",b,"=",a/b)
+elif c==4:
+ print(a,"-",b,"=",a-b)
+elif c==5:
+ print(a,"%",b,"=",a%b)
+elif c==6:
+ print(a,"^",b,"=",a**b)
+elif c==7:
+ print(a,"//",b,"=",a//b)
+else:
+ print("Invalid choice")
