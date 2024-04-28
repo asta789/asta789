@@ -1,0 +1,32 @@
+import random as r
+while True:
+ a = input("enter ur decision")
+ b = ["paper", "scissor", "rock"]
+ random = r.choice(b)
+ if a == random:
+ print("draw")
+ elif a == "rock" and random == "scissor":
+ print(random)
+ print("you won")
+ elif a == "paper" and random == "scissor":
+ print(random)
+ print("you lose")
+ elif a == "scissor" and random == "rock":
+ print(random)
+ print("you lose")
+ elif a == "scissor" and random == "paper":
+ print(random)
+ print("you won")
+ elif a == "rock" and random == "scissor":
+ print(random)
+ print("you won")
+ elif a == "rock" and random == "paper":
+ print(random)
+ print("you lose")
+ elif a == "paper" and random == "rock":
+ print(random)
+ print("you won")
+ elif a == "exit":
+   break
+ else: 
+   print("invalid input")
